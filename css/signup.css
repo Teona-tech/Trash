@@ -1,0 +1,182 @@
+.sign{
+    position: absolute;
+    top: 10%;
+    left: 40.7%;
+    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    color:orangered;
+
+}
+.account{
+    position: absolute;
+    top: 100px;
+    left: 39%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color:blue;
+}
+.log{
+    color:blue;
+}
+.container {
+    width:100%;
+    position: relative;
+}
+.box {
+    width: 385px;
+    height: 362px;
+    position: absolute;
+    
+    top: 220px;
+    left: 13%;
+}
+
+
+
+.form button:hover{
+    background-color: orangered;
+    color:white;
+}
+
+.form {
+    position: absolute;
+    top: 180px;
+    width: 200px;
+    left: 160px;
+}
+
+.line {
+    height:348px;
+    width:1px;
+    background-color:#e1e1e1;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+}
+
+.connect{
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.con-house{
+    position: absolute;
+    width: 300px;
+    top: 310px;
+    left: 60%;
+    
+}
+.txt {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+
+.google {
+    background-color:#4285F4;
+}
+
+.facebook{
+    background-color:#3B5998;
+
+}
+i{
+    color: white;
+    font-size: 25px;
+}
+.lst{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 600px;
+    left: 18%;
+}
+
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    cursor:pointer;
+
+}
+
+
+.form-control input {
+	width: 371px;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #e1e1e1;
+    margin-bottom: 10px;
+    font-size:15px;
+    outline: none;
+}
+
+
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+
+
+.form-control input {
+	width: 371px;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #e1e1e1;
+    margin-bottom: 10px;
+    font-size:15px;
+    outline: none;
+}
+
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control small {
+	color: red;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	width: 167px;
+    height: 41px;
+    border-radius: 50px;
+    border-width: 0.2px;
+    border-color: orange;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color:orangered;
+    margin-top:10px;
+    outline:none;
+}
+

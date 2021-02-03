@@ -1,0 +1,91 @@
+.containera {
+    position: relative;
+
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+
+.face {
+  
+    position: absolute;
+    top: 150px;
+    left: 130px;
+}
+.bg {
+    
+    position: absolute;
+    top: 150px;
+    left: 430px;
+
+}
+
+.about-us {
+    color:orangered;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-size:40px;
+    position:absolute;
+    
+    top: 20px;
+    left: 45%;
+    
+}
+
+
+.nature{
+    position: absolute;
+    top: 450px;
+    left: 430px;
+
+}
+.flowers {
+   
+    position: absolute;
+    top: 450px;
+    left: 130px;
+}
+.logo{
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    cursor: pointer;
+    height: 80px;
+
+}
+
+h1{
+    top: 100px;
+    right: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+
+}
+
+.p-3 {
+    position: absolute;
+    width: 650px;
+    top: 630px;
+    right: 100px;
+    font-size: 20px;
+}
+.p-1{
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    right: 100px;
+    font-size: 20px;
+}
+
+.p-2{
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    right: 450px;
+    font-size: 20px;
+}

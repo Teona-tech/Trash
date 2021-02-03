@@ -1,0 +1,375 @@
+.nav {
+    position: absolute;
+    top: 14px;
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    z-index:1;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    text-decoration: none;
+    color:white;
+
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    color:white;
+    cursor: pointer;
+    background-color:orangered;
+    outline:none;
+
+
+}
+
+
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 2%;
+    font-size:20px;
+    z-index: 2;
+    font-weight: 700;
+    cursor:pointer;
+}
+.component {
+    width:100%;
+    height:474px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    
+}
+
+body{
+    background-color:white;
+    margin:0px;
+    padding:0px;
+}
+
+
+.ex{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 120px;
+    font-size: 60px;
+    right: 20%;
+    color:white;
+
+
+}
+
+.read{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 230px;
+    right: 20%;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-left:22%;
+
+    
+
+}
+
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+
+  
+  }
+  
+  
+  
+  .dot {
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: 1} 
+    to {opacity:1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+.dot-house {
+    text-align:center;
+    position: absolute;
+    top:90%;
+    left:48%;
+}
+
+.bg-img-1 {
+    background-image: url(https://c7.uihere.com/files/345/632/1008/painting-oil-painting-artwork-gods.jpg);
+
+}
+
+.bg-img-2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Feast_in_the_House_of_Levi_%28edited%29.jpg/1200px-The_Feast_in_the_House_of_Levi_%28edited%29.jpg);
+
+}
+
+.bg-img {
+    background-image: url(https://cdn.wallpapersafari.com/86/17/lvYnHM.jpg);
+
+}
+
+.bg-img-3 {
+    background-image: url(https://www.teahub.io/photos/full/106-1060658_1920x1200-renaissance-data-id-64381-data-src-walls.jpg);
+
+}
+
+
+.news {
+    width:100%;
+    position: relative;
+   
+
+    
+}
+
+.discover {
+    margin-top:0px;
+    display: inline-block;
+
+}
+
+.paper {
+    margin-top:30px;
+    margin-left:70px;
+    font-size:20px;
+}
+
+.new {
+    width:300px;
+    height:140px;
+}
+
+
+.each-photo{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    top: 25px;
+    position: absolute;
+    left: 20px;
+
+}
+
+
+.artwork{
+    border-radius:20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+  
+    position: relative;
+    
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin: 0px;
+    right: 60px;
+    top: 20px;
+    right: 60px;
+
+
+}
+
+.txt {
+    width: 200px;
+    color: grey;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    font-size: 14px;
+
+}
+
+.added {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 820px;
+    position: absolute;
+    top: 150px;
+    
+
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    position: absolute;
+    top: 120px;
+    
+}
+
+.new-art {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    margin: 0px;
+}
+.dis {
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    right: 70px;
+}
+
+.themes {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    right: 20px;
+}
+
+.art-periods {
+    background-color: white;
+    color: grey;
+    border: solid;
+    border-width: 0.5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+#bt-1{
+    width:160px;
+}
+
+
+
+@media only screen and (min-width:1601px) {
+    .ex {
+        right: 25%;
+    }
+}
+
+@media only screen and (min-width:1400px) and (max-width:1600px) {
+    .ex {
+        right: 23%;
+    }
+    .themes {
+        width: 350px;}
+    .art-periods{
+        margin-left:0px;
+    }
+
+    #bt-6 {
+        width:80px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    .ex {
+        right: 19%;
+    }
+    .themes {
+        width: 350px;}
+    .art-periods{
+        margin-left:0px;
+    }
+
+    #bt-6 {
+        width:80px;
+    }
+}
+
+@media only screen and (min-width:1100px) and (max-width:1200px) {
+
+    .ex {
+        right: 14%;
+    }
+    .themes {
+        width: 200px;}
+    .art-periods{
+        margin-left:0px;
+    }
+
+    #bt-6 {
+        width:120px;
+    }
+    #bt-1 {
+        width:120px;
+    }
+
+
+}
+
+
+@media only screen and (min-width:900px) and (max-width:1099px) {
+
+    .ex {
+        right: 10%;;
+    }
+    .themes {
+        width: 1000px;
+        top: 2000px;
+        left: 100px;
+        height: 60px;
+    }
+    .art-periods{
+        margin-left:0px;
+    }
+
+    #bt-6 {
+        width:120px;
+    }
+    #bt-1 {
+        width:120px;
+    }
+
+    .dis {
+        display: none;
+    }
+    .slideshow-container {
+        position: relative;
+        margin: auto;
+        width: 110%;
+    }
+}
